@@ -62,7 +62,7 @@ def pcl2jpg(pcd, outfile, cam='s', zoom=ZOOM):
     opt.background_color = ([0.40,0.40,0.40])
     opt.point_size = 1.0
     #opt.point_color_option = o3d.visualization.PointColorOption.YCoordinate
-    opt.point_color_option = o3d.visualization.PointColorOption.Color
+    opt.point_color_option = o3d.visualization.PointColorOption.Normal
     if _DEBUG:
         vis.run()
     # if _DEBUG:
